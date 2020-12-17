@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class WeaponData : ScriptableObject
 {
+    public string type;
     public string name;
     public string carriedAmmo;
     public float damage;

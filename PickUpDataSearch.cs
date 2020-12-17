@@ -12,7 +12,7 @@ public class PickUpDataSearch : MonoBehaviour
         if (col.gameObject.tag == "PlayerChar")
         {
             EquippedWeapon EW = col.gameObject.GetComponent<EquippedWeapon>();
-            EW.equipped = WD;
+            EW.pickUp = WD;
             EW.Equip();
         }
     }

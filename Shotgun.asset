@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d49d38206062ba4e9a0c31e61e0ac7f, type: 3}
   m_Name: Shotgun
   m_EditorClassIdentifier: 
+  type: Ranged
   name: Shotgun
   carriedAmmo: Shotgun_Pellets
   damage: 20
   fireRate: 1.2
   reloadTime: 1.5
-  WeaponArrayIndex: 9
+  WeaponArrayIndex: 3
   ammoInAClip: 6
   maxAmmo: 42
   range: 12
