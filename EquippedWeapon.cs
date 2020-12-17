@@ -18,7 +18,7 @@ public class EquippedWeapon : MonoBehaviour
             for (i = 0; i < rangedWeapons.Length; i++)
             {
                 rangedWeapons[i].SetActive(false);
-                rangedWeapons[equippedRanged.WeaponArrayIndex].SetActive(true);
+                rangedWeapons[pickUp.WeaponArrayIndex].SetActive(true);
             }
         }
         if (pickUp.type == "Melee")
@@ -26,7 +26,7 @@ public class EquippedWeapon : MonoBehaviour
             for (i = 0; i < meleeWeapons.Length; i++)
             {
                 meleeWeapons[i].SetActive(false);
-                meleeWeapons[equippedMelee.WeaponArrayIndex].SetActive(true);
+                meleeWeapons[pickUp.WeaponArrayIndex].SetActive(true);
             }
         }
     }
