@@ -9,9 +9,10 @@ public class WeaponData : ScriptableObject
     public string type;
     public string name;
     public string carriedAmmo;
-    public float damage;
     public float fireRate;
     public float reloadTime;
+    public int extraParts;
+    public int damage;
     public int WeaponArrayIndex;
     public int ammoInAClip;
     public int maxAmmo;
